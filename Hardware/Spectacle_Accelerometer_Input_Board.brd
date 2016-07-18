@@ -9,8 +9,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -20,25 +20,25 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -3189,6 +3189,22 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,1,e5c39bfb988fe6b7"/>
 <approved hash="19,1,c5c2fffafc86c6be"/>
 <approved hash="19,1,c376f94efbaac192"/>
+<approved hash="1,20,fceb83158264fd9a"/>
+<approved hash="1,20,fc778389823bfdc5"/>
+<approved hash="1,20,17771989183b16c5"/>
+<approved hash="1,20,9e7e1400157a9f04"/>
+<approved hash="1,20,c2eb5c155c21c2df"/>
+<approved hash="1,20,9dfd130312e29c1c"/>
+<approved hash="1,20,5472160c17e0559e"/>
+<approved hash="1,20,5cf2130c12e35d1d"/>
+<approved hash="1,20,9cfc320232239cdd"/>
+<approved hash="1,20,1cfd230320051ffb"/>
+<approved hash="1,20,14c5393b39e71419"/>
+<approved hash="1,20,2771098f083b26c5"/>
+<approved hash="5,1,fb01bfb4bf82fb51"/>
+<approved hash="19,1,d4a70e9f0e22d41a"/>
+<approved hash="19,1,f8a59a9d9a51f869"/>
+<approved hash="19,1,f9399b019d61ff59"/>
 </errors>
 </board>
 </drawing>
