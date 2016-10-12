@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\ADXL345.h">
 <ExpandedNodeIds>
 <v>Spectacle_Accelerometer_Input_Board</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board</v>
@@ -127,6 +127,50 @@
 <VisibleNodeIds>
 <v>Spectacle_Accelerometer_Input_Board</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\Cm0plusStart.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_BOOT.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_BOOT.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_INT.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_SCB_IRQ.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_SCBCLK.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_scl.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_scl_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_sda.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_sda_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_I2C.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_I2C_INT.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_I2C_MASTER.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_SCBCLK.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_scl.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_scl_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_sda.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_sda_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\INT1.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\INT1_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\INT2.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\INT2_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\LED.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\LED_PM.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -175,9 +219,6 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\Spectacle_Accelerometer_Input_Board.cydsn\main.c" />
-<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\Spectacle_Accelerometer_Input_Board.cydwr" />
-<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\ADXL345.h" />
 </OpenDocs>
 <config v="" />
 <AutoUpdate v="true" />
