@@ -39,6 +39,7 @@
           <File BuildType="BUILD" Toolchain="">.\main.c</File>
           <File BuildType="BUILD" Toolchain="">.\cyapicallbacks.h</File>
           <File BuildType="BUILD" Toolchain="">.\ADXL345.h</File>
+          <File BuildType="BUILD" Toolchain="">.\spectacle.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Dropbox\Projects\Spectacle\Spectacle_Accelerometer_Input_Board\Firmware\Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board.cydsn\Generated_Source\PSoC4">

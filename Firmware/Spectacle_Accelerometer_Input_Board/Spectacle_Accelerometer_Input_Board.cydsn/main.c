@@ -4,21 +4,20 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "ADXL345.h"
-
-#define I2C_BUFFER_SIZE 16
-#define I2C_BUFFER_RW_BOUNDARY 16
+#include "spectacle.h"
 
 volatile int32 systemTimer = 0;
 
 CY_ISR_PROTO(tickISR);
 
-uint8 registerSpace[I2C_BUFFER_SIZE];
+Board registerSpace;
+
 int main()
 {
   CyGlobalIntEnable; /* Enable global interrupts. */
   
   EZI2C_Start();
-  EZI2C_EzI2CSetBuffer1(I2C_BUFFER_SIZE, I2C_BUFFER_RW_BOUNDARY, registerSpace);
+  EZI2C_EzI2CSetBuffer1(I2C_BUFFER_SIZE, I2C_BUFFER_RW_BOUNDARY, (uint8*)&registerSpace);
   
   I2C_Start();
   
@@ -30,8 +29,6 @@ int main()
   int32 _100HzTick = 0;
   uint8 temp;
   int32 _2HzTick = 0;
-  uint32 rxBuffer = 0;
-  int i = 0;
   char buffer[64];
   
   uint8 *boardID = 0;
@@ -43,15 +40,15 @@ int main()
   uint8 *maxAxis = 0;
   int16 *magnitude = 0;
   uint8 *active = 0;
-  boardID = &registerSpace[0];
-  boardType = &registerSpace[1];
-  change = &registerSpace[2];
-  active = &registerSpace[3];
-  maxAxis = &registerSpace[4];
-  magnitude = (int16*)&registerSpace[5];
-  xMag = (int16*)&registerSpace[7];
-  yMag = (int16*)&registerSpace[9];
-  zMag = (int16*)&registerSpace[11];
+  boardID = &registerSpace.boardID;
+  boardType = &registerSpace.type;
+  change = &registerSpace.change;
+  active = &registerSpace.data[0];
+  maxAxis = &registerSpace.data[1];
+  magnitude = (int16*)&registerSpace.data[2];
+  xMag = (int16*)&registerSpace.data[4];
+  yMag = (int16*)&registerSpace.data[6];
+  zMag = (int16*)&registerSpace.data[8];
 
   *boardID = 0xa3;
   *boardType = 1;
@@ -81,14 +78,6 @@ int main()
     if ((systemTimer - 10) > _100HzTick)
     {
       _100HzTick = systemTimer;
-      rxBuffer = UART_UartGetChar();
-      if (rxBuffer == 'r')
-      {
-        for (i=0; i < I2C_BUFFER_SIZE; i++)
-        {
-          UART_UartPutChar(registerSpace[i]);
-        }
-      }
       if (INT1_Read() != 0)
       {
         //UART_UartPutString("INACTIVE\n");
@@ -105,6 +94,7 @@ int main()
       int16 xAbs = abs(*xMag);
       int16 yAbs = abs(*yMag);
       int16 zAbs = abs(*zMag); 
+      uint8 oldMaxAxis = *maxAxis;
       if (xAbs > yAbs)
       {
         if (zAbs > xAbs) 
@@ -130,6 +120,10 @@ int main()
           if (yMag < 0) *maxAxis = Bup;
           else          *maxAxis = Aup;
         }
+      }
+      if ((~oldMaxAxis & *maxAxis) != 0)
+      {
+        *change = 1;
       }
     }
     // One Hz blinking LED heartbeat. Will probably be removed from production

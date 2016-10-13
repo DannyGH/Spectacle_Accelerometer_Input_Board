@@ -3,6 +3,7 @@ Accel_Board_FW=/home/mike.hord/dropbox/projects/Spectacle/Spectacle_Acceleromete
  Spectacle_Accelerometer_Input_Board.cydsn=Spectacle_Accelerometer_Input_Board.cydsn {
   ADXL345.h
   cyapicallbacks.h
+  spectacle.h
   main.c
   codegentemp=codegentemp {
    cmsis_armcc.h

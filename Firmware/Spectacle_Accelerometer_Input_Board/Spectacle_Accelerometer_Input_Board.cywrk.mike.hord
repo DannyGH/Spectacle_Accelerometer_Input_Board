@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\ADXL345.h">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files">
 <ExpandedNodeIds>
 <v>Spectacle_Accelerometer_Input_Board</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board</v>
@@ -22,6 +22,7 @@
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\ADXL345.h</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\cyapicallbacks.h</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\spectacle.h</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\main.c</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Generated_Source</v>
@@ -34,6 +35,7 @@
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\ADXL345.h</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\cyapicallbacks.h</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\spectacle.h</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\main.c</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Generated_Source</v>

@@ -19239,7 +19239,7 @@ near U1G4.25</text>
 <text x="92.964" y="170.434" size="0.6096" layer="97">C7 &amp; C8 to be
 near U3.1</text>
 <text x="167.64" y="7.62" size="3.81" layer="91" font="vector">Mike Hord</text>
-<text x="238.506" y="6.604" size="3.81" layer="91" font="vector">01</text>
+<text x="238.506" y="6.604" size="3.81" layer="91" font="vector">02</text>
 <wire x1="0" y1="83.82" x2="109.22" y2="83.82" width="0.3048" layer="97" style="longdash"/>
 <wire x1="109.22" y1="83.82" x2="147.32" y2="83.82" width="0.3048" layer="97" style="longdash"/>
 <wire x1="147.32" y1="83.82" x2="147.32" y2="35.56" width="0.3048" layer="97" style="longdash"/>
@@ -19252,6 +19252,8 @@ near U3.1</text>
 <text x="88.9" y="86.36" size="3.81" layer="97" font="vector">Power
 Supply</text>
 <text x="17.78" y="116.84" size="1.778" layer="97">3.5V &lt; VIN &lt; 9V</text>
+<text x="184.15" y="73.66" size="1.778" layer="97">In</text>
+<text x="182.372" y="48.26" size="1.778" layer="97">Out</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
