@@ -16502,6 +16502,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.05" y1="0.05" x2="1.3" y2="1.3" layer="31"/>
 <rectangle x1="-1.3" y1="-1.3" x2="-0.05" y2="-0.05" layer="31"/>
 <rectangle x1="0.05" y1="-1.3" x2="1.3" y2="-0.05" layer="31"/>
+<rectangle x1="0.63" y1="2.16" x2="0.87" y2="2.85" layer="31" rot="R180"/>
 </package>
 </packages>
 <symbols>
