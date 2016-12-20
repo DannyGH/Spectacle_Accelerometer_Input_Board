@@ -1,10 +1,17 @@
 
-Accel_Board_FW=/home/mike.hord/dropbox/projects/Spectacle/Spectacle_Accelerometer_Input_Board/Firmware/Spectacle_Accelerometer_Input_Board CD=. filter="*.h *.c" {
+Accel_Board_FW=/cygdrive/c/dropbox/projects/Spectacle/Spectacle_Accelerometer_Input_Board/Firmware/Spectacle_Accelerometer_Input_Board CD=. filter="*.h *.c" {
  Spectacle_Accelerometer_Input_Board.cydsn=Spectacle_Accelerometer_Input_Board.cydsn {
   ADXL345.h
   cyapicallbacks.h
+  debug.h
+  programming.h
   spectacle.h
+  xl.h
+  ADXL345.c
+  debug.c
   main.c
+  programming.c
+  xl.c
   codegentemp=codegentemp {
    cmsis_armcc.h
    cmsis_gcc.h

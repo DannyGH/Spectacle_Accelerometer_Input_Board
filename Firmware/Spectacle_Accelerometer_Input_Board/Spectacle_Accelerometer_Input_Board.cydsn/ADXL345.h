@@ -38,11 +38,9 @@
 #define FIFO_CTL        0x38   // FIFO control
 #define FIFO_STATUS     0x39   // FIFO status
 
-enum {Aup, Bup, Cup, Dup, Topup, Botup};
+enum {Aup = 1, Bup, Cup, Dup, Topup, Botup};
 
-bool read16Bits(uint8 address, int16 *read);
 void readXYZ(int16 *x, int16 *y, int16 *z);
-bool read8Bits(uint8 address, uint8 *read);
-bool write8Bits(uint8 address, uint8 write);
+void configureXl(void);
 
 // #endif
