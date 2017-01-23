@@ -54,6 +54,11 @@ int main()
   behaviors = malloc(64*sizeof(struct xl));
   I2C_Mem = (uint8*)mailboxes;
   
+  I2C_Mem[PROG_ENABLE_REG] = 0;
+  I2C_Mem[PROG_READY_REG] = 0;
+  I2C_Mem[DATA_READY_REG] = 0;
+  I2C_Mem[BOARD_ID_REG] = BOARD_ID;
+
   int32 _100HzTick = 0;
   uint8 temp;
   int32 _2HzTick = 0;
