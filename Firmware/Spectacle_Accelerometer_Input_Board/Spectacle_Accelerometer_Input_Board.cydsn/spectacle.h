@@ -1,3 +1,20 @@
+/****************************************************************************
+spectacle.h
+Board ID and related I2C addresses
+Mike Hord @ SparkFun Electronics
+24 Jan 2017
+https://github.com/sparkfun/Spectacle_Accelerometer_Input_Board
+
+Includes the board ID and a couple of I2C addresses related to addressing the
+board during configuration.
+
+Development environment specifics:
+Developed in PSoC Creator 4.0
+
+This code is beerware; if you see me (or any other SparkFun employee) at the
+local, and you've found our code helpful, please buy us a round!
+****************************************************************************/
+
 #ifndef __spectacle_h__
 #define __spectacle_h__
 

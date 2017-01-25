@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\spectacle.h">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\xl.c">
 <ExpandedNodeIds>
 <v>Spectacle_Accelerometer_Input_Board</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board</v>
@@ -28,14 +28,11 @@
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board.cydwr\Flash Security</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\ADXL345.h</v>
-<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\cyapicallbacks.h</v>
-<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\debug.h</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\programming.h</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\spectacle.h</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\xl.h</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\ADXL345.c</v>
-<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\debug.c</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\main.c</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\programming.c</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\xl.c</v>
@@ -61,14 +58,11 @@
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board.cydwr\Flash Security</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\ADXL345.h</v>
-<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\cyapicallbacks.h</v>
-<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\debug.h</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\programming.h</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\spectacle.h</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Header Files\xl.h</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\ADXL345.c</v>
-<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\debug.c</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\main.c</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\programming.c</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Source Files\xl.c</v>
@@ -96,6 +90,9 @@
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Generated_Source\PSoC4\LED</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Generated_Source\PSoC4\UART</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Generated_Source\PSoC4\UART_rx</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Generated_Source\PSoC4\UART_SCBCLK</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Generated_Source\PSoC4\UART_tx</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\Generated_Source\PSoC4\cycodeshareexport.ld</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -132,7 +129,6 @@
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\debug.lst</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C.lst</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_BOOT.lst</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C.lst</v>
@@ -240,10 +236,12 @@
 <OpenDocs>
 <name v=".\Spectacle_Accelerometer_Input_Board.cydsn\main.c" />
 <name v=".\Spectacle_Accelerometer_Input_Board.cydsn\programming.c" />
-<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\debug.c" />
-<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\Spectacle_Accelerometer_Input_Board.cydwr" />
 <name v=".\Spectacle_Accelerometer_Input_Board.cydsn\spectacle.h" />
+<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\ADXL345.h" />
+<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\ADXL345.c" />
+<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\xl.h" />
+<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\xl.c" />
+<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\programming.h" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -251,7 +249,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1262, 711" SelectedTabbedMdiWindow="3e0e20b1-7859-4eee-a21a-55542ffd0da4"><DocumentWindow Key="6feb8b1a-4a59-4ced-b470-6d300c28a0ce" Guid="3e0e20b1-7859-4eee-a21a-55542ffd0da4" /><DocumentWindow Key="e3229d2e-b157-493b-a90e-082859ba947b" Guid="9eb099a5-ff77-4329-bf68-582d81af4a89" /><DocumentWindow Key="0c48083a-245e-4599-a616-2443e2f40c2e" Guid="31a099d8-893d-4e26-b80c-3bfb0335798d" /><DocumentWindow Key="61f96add-956d-4023-af69-3d715285f27e" Guid="813257dd-71b6-47f1-9e99-3782fac1d2dd" /><DocumentWindow Key="559e27b5-d987-436b-aef4-d81f9c500ca5" Guid="481502da-55d5-43e9-a535-7386e62ebf47" /><DocumentWindow Key="59cc5e39-d225-4a1d-84db-37d9f619a46e" Guid="e8854f3e-d9d3-4e7c-8518-44eb39085536" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1262, 711" SelectedTabbedMdiWindow="86b04235-8e14-4604-bd63-6b3b44b7400a"><DocumentWindow Key="2b42b5e0-b427-41c3-9e96-c2a4e4fa83d6" Guid="ca8e1c72-e062-4bed-89a9-c3018f59e641" /><DocumentWindow Key="01ef2d71-7183-48c7-8d4e-c03e11b2cf58" Guid="06009949-31c5-4b0f-a2c6-3929726a94ba" /><DocumentWindow Key="4fbff980-ee97-4d5b-9e51-64cf93ccd3d2" Guid="762fbbed-7fac-492f-a36f-c801f580a027" /><DocumentWindow Key="379d6173-ea5b-496f-b890-bf59f8fe4498" Guid="bc0c6d6b-cdc4-4ee2-a5fd-2e663a95ef9e" /><DocumentWindow Key="a41caa76-0b8d-439e-91fc-9993c4a8b698" Guid="58fe6c3f-6019-4247-9ab0-dc2083edb105" /><DocumentWindow Key="bfb2cf0e-edb2-4d83-937a-89160fea2dc5" Guid="4155d9ca-a6c5-418f-9a3f-6be36e1da7b9" /><DocumentWindow Key="564e2aaa-e888-488c-8c6f-b58ca5719114" Guid="a5c2900e-ef89-4fc0-add7-0e9b74f81045" /><DocumentWindow Key="e5e394ea-ca1f-4e34-9228-c3c6c33ae455" Guid="86b04235-8e14-4604-bd63-6b3b44b7400a" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

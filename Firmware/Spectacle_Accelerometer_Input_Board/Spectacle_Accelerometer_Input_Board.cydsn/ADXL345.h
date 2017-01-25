@@ -1,6 +1,25 @@
-// #ifndef __adxl345_h__
-// #define __adxl345_h__
+/****************************************************************************
+ADXL345.h
+Defines and functions specific to the ADXL345
+Mike Hord @ SparkFun Electronics
+24 Jan 2017
+https://github.com/sparkfun/Spectacle_Accelerometer_Input_Board
 
+This file contains definitions specific to the ADXL345. The accelerometer
+used is fairly easy to change, as only the ADXL345.h and .c files need to be
+changed.
+
+Development environment specifics:
+Developed in PSoC Creator 4.0
+
+This code is beerware; if you see me (or any other SparkFun employee) at the
+local, and you've found our code helpful, please buy us a round!
+****************************************************************************/
+
+#ifndef __adxl345_h__
+#define __adxl345_h__
+#include "project.h"
+    
 // This is the right justified address of the accelerometer, when the SDO pin
 //  is grounded (as it is in our application).
 #define ADXL345_ADDR 0x53
@@ -43,4 +62,4 @@ enum {Aup = 1, Bup, Cup, Dup, Topup, Botup};
 void readXYZ(int16 *x, int16 *y, int16 *z);
 void configureXl(void);
 
-// #endif
+#endif

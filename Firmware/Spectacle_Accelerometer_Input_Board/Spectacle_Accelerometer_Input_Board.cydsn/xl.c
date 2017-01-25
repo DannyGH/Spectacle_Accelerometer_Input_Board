@@ -1,3 +1,20 @@
+/****************************************************************************
+xl.h
+Functions for general accelerometer
+Mike Hord @ SparkFun Electronics
+24 Jan 2017
+https://github.com/sparkfun/Spectacle_Accelerometer_Input_Board
+
+This file contains general purpose functions for any I2C accelerometer. If
+the accelerometer must be changed in the future, this file need not change.
+
+Development environment specifics:
+Developed in PSoC Creator 4.0
+
+This code is beerware; if you see me (or any other SparkFun employee) at the
+local, and you've found our code helpful, please buy us a round!
+****************************************************************************/
+  
 #include <project.h>
 #include <stdlib.h>
 #include "ADXL345.h"

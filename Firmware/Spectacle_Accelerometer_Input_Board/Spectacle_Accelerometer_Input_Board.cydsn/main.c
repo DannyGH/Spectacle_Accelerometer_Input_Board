@@ -1,3 +1,20 @@
+/****************************************************************************
+main.c
+Main code file for Spectacle Accelerometer input board project
+Mike Hord @ SparkFun Electronics
+24 Jan 2017
+https://github.com/sparkfun/Spectacle_Accelerometer_Input_Board
+
+This file includes main(), which configures the hardware for the system as
+well as monitoring the data coming from the director board.
+
+Development environment specifics:
+Developed in PSoC Creator 4.0
+
+This code is beerware; if you see me (or any other SparkFun employee) at the
+local, and you've found our code helpful, please buy us a round!
+****************************************************************************/
+
 #include <project.h>
 #include <stdbool.h>
 #include <math.h>
