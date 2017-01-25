@@ -187,6 +187,52 @@
 <VisibleNodeIds>
 <v>Spectacle_Accelerometer_Input_Board</v>
 <v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\ADXL345.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\Cm0plusStart.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_BOOT.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_BOOT.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_INT.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_SCB_IRQ.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_SCBCLK.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_scl.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_scl_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_sda.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_sda_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_I2C.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_I2C_INT.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_I2C_MASTER.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_OUT_EN.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_OUT_EN_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_SCBCLK.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_scl.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_scl_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_sda.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_sda_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\INT1.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\INT1_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\INT2.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\INT2_PM.lst</v>
+<v>Spectacle_Accelerometer_Input_Board\Spectacle_Accelerometer_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\LED.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -235,8 +281,8 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\Spectacle_Accelerometer_Input_Board.cydsn\main.c" />
-<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\programming.c" />
 <name v=".\Spectacle_Accelerometer_Input_Board.cydsn\spectacle.h" />
+<name v=".\Spectacle_Accelerometer_Input_Board.cydsn\programming.c" />
 <name v=".\Spectacle_Accelerometer_Input_Board.cydsn\ADXL345.h" />
 <name v=".\Spectacle_Accelerometer_Input_Board.cydsn\ADXL345.c" />
 <name v=".\Spectacle_Accelerometer_Input_Board.cydsn\xl.h" />
@@ -249,7 +295,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1262, 711" SelectedTabbedMdiWindow="86b04235-8e14-4604-bd63-6b3b44b7400a"><DocumentWindow Key="2b42b5e0-b427-41c3-9e96-c2a4e4fa83d6" Guid="ca8e1c72-e062-4bed-89a9-c3018f59e641" /><DocumentWindow Key="01ef2d71-7183-48c7-8d4e-c03e11b2cf58" Guid="06009949-31c5-4b0f-a2c6-3929726a94ba" /><DocumentWindow Key="4fbff980-ee97-4d5b-9e51-64cf93ccd3d2" Guid="762fbbed-7fac-492f-a36f-c801f580a027" /><DocumentWindow Key="379d6173-ea5b-496f-b890-bf59f8fe4498" Guid="bc0c6d6b-cdc4-4ee2-a5fd-2e663a95ef9e" /><DocumentWindow Key="a41caa76-0b8d-439e-91fc-9993c4a8b698" Guid="58fe6c3f-6019-4247-9ab0-dc2083edb105" /><DocumentWindow Key="bfb2cf0e-edb2-4d83-937a-89160fea2dc5" Guid="4155d9ca-a6c5-418f-9a3f-6be36e1da7b9" /><DocumentWindow Key="564e2aaa-e888-488c-8c6f-b58ca5719114" Guid="a5c2900e-ef89-4fc0-add7-0e9b74f81045" /><DocumentWindow Key="e5e394ea-ca1f-4e34-9228-c3c6c33ae455" Guid="86b04235-8e14-4604-bd63-6b3b44b7400a" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1262, 711" SelectedTabbedMdiWindow="3019736d-2ae7-49a7-85da-0923397538d2"><DocumentWindow Key="617adaff-c0d4-463a-a739-e064be267c76" Guid="c36643fd-c28d-45e0-beac-f39e6d65eff8" /><DocumentWindow Key="b0565404-1c07-4ffc-8728-e0223192a1bb" Guid="ea4d39c0-b270-41dc-bb25-1a0898837b17" /><DocumentWindow Key="d6c4cb35-e79a-49fe-ab8c-0a284ed8fa35" Guid="3019736d-2ae7-49a7-85da-0923397538d2" /><DocumentWindow Key="4aecc808-fee0-47ec-abe3-fd8f45eba378" Guid="d2dfac36-bcc2-47f3-ba5a-501fd73e2ed6" /><DocumentWindow Key="8712a260-3157-45f5-9df7-ed19ab1774b7" Guid="25ce8f83-edf3-4b2a-88ae-603eab074cd3" /><DocumentWindow Key="c4a90e7a-cd1d-429a-8502-c3d631d77c1c" Guid="a30552bf-6504-46bb-947b-be206015cc19" /><DocumentWindow Key="135fbe5b-3d81-4295-93f7-0f361475c212" Guid="2375024c-338e-4467-b99f-60992e211acf" /><DocumentWindow Key="79674296-0c8b-4b92-b2b4-81ac6ded0f71" Guid="219da092-abfd-4a23-ab63-89889fdc777c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

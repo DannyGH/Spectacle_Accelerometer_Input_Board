@@ -57,10 +57,14 @@ void program(void)
     // We can't use memcpy to copy our I2C data into behaviors, as memcpy will
     // discard the volatile qualifier and may fetch (bad) data from the cache.
     // We therefore must write our own copying method.
-    for (i = 0; i < sizeof(struct xl); ++i)
+    for (i = 0; i < USER_DATA_LEN; ++i)
     {
       *((uint8_t*)(&behaviors[behaviorListLen])+i) =
               I2C_Mem[i+128];
+    }     
+    for (i = USER_DATA_LEN; i < sizeof(struct xl); ++i)
+    {
+      *((uint8_t*)(&behaviors[behaviorListLen])+i) = 0;
     } 
     behaviorListLen++;
     I2C_Mem[DATA_READY_REG] = 0;

@@ -20,12 +20,15 @@ local, and you've found our code helpful, please buy us a round!
 #include <project.h>  
 #include <stdbool.h>
 
+#define USER_DATA_LEN 3
+    
 #pragma pack(1)
 struct xl
 {
   uint8 channel;
   uint8 mode;
   uint8 momentary;
+    // End of user configurable data
   uint8 orientation;
   uint8 active;
   uint8 inactive;
