@@ -259,6 +259,181 @@ int main()
             }
           }
           break;
+          
+          case SIDE_B_UP:
+          if (maxAxis != Bup) 
+          {
+            mailboxes[behaviors[i].channel] = 0;
+            behaviors[i].orientation = maxAxis;
+          }
+          else// if (maxAxis == Bup)
+          {
+            if (behaviors[i].momentary == 0) // continuous output desired
+            {
+              mailboxes[behaviors[i].channel] = 1000;
+            }
+            else // momentary output desired
+            {
+              if (behaviors[i].orientation != Bup)
+              {
+                behaviors[i].orientation = Bup;
+                behaviors[i].xlTimer = systemTimer;
+                mailboxes[behaviors[i].channel] = 1000;
+              }
+              else 
+              {
+                if (systemTimer - behaviors[i].xlTimer > 100)
+                {
+                  mailboxes[behaviors[i].channel] = 0;
+                }
+                else // less than 100ms have elapsed since output was set
+                {
+                  mailboxes[behaviors[i].channel] = 1000;
+                }
+              }
+            }
+          }
+          break;
+          
+          case SIDE_C_UP:
+          if (maxAxis != Cup) 
+          {
+            mailboxes[behaviors[i].channel] = 0;
+            behaviors[i].orientation = maxAxis;
+          }
+          else// if (maxAxis == Cup)
+          {
+            if (behaviors[i].momentary == 0) // continuous output desired
+            {
+              mailboxes[behaviors[i].channel] = 1000;
+            }
+            else // momentary output desired
+            {
+              if (behaviors[i].orientation != Cup)
+              {
+                behaviors[i].orientation = Cup;
+                behaviors[i].xlTimer = systemTimer;
+                mailboxes[behaviors[i].channel] = 1000;
+              }
+              else 
+              {
+                if (systemTimer - behaviors[i].xlTimer > 100)
+                {
+                  mailboxes[behaviors[i].channel] = 0;
+                }
+                else // less than 100ms have elapsed since output was set
+                {
+                  mailboxes[behaviors[i].channel] = 1000;
+                }
+              }
+            }
+          }
+          break;
+         
+          case SIDE_D_UP:
+          if (maxAxis != Dup) 
+          {
+            mailboxes[behaviors[i].channel] = 0;
+            behaviors[i].orientation = maxAxis;
+          }
+          else// if (maxAxis == Dup)
+          {
+            if (behaviors[i].momentary == 0) // continuous output desired
+            {
+              mailboxes[behaviors[i].channel] = 1000;
+            }
+            else // momentary output desired
+            {
+              if (behaviors[i].orientation != Dup)
+              {
+                behaviors[i].orientation = Dup;
+                behaviors[i].xlTimer = systemTimer;
+                mailboxes[behaviors[i].channel] = 1000;
+              }
+              else 
+              {
+                if (systemTimer - behaviors[i].xlTimer > 100)
+                {
+                  mailboxes[behaviors[i].channel] = 0;
+                }
+                else // less than 100ms have elapsed since output was set
+                {
+                  mailboxes[behaviors[i].channel] = 1000;
+                }
+              }
+            }
+          }
+          break;
+          
+          case SIDE_TOP_UP:
+          if (maxAxis != Topup) 
+          {
+            mailboxes[behaviors[i].channel] = 0;
+            behaviors[i].orientation = maxAxis;
+          }
+          else// if (maxAxis == Topup)
+          {
+            if (behaviors[i].momentary == 0) // continuous output desired
+            {
+              mailboxes[behaviors[i].channel] = 1000;
+            }
+            else // momentary output desired
+            {
+              if (behaviors[i].orientation != Topup)
+              {
+                behaviors[i].orientation = Topup;
+                behaviors[i].xlTimer = systemTimer;
+                mailboxes[behaviors[i].channel] = 1000;
+              }
+              else 
+              {
+                if (systemTimer - behaviors[i].xlTimer > 100)
+                {
+                  mailboxes[behaviors[i].channel] = 0;
+                }
+                else // less than 100ms have elapsed since output was set
+                {
+                  mailboxes[behaviors[i].channel] = 1000;
+                }
+              }
+            }
+          }
+          break;
+          
+          case SIDE_BOTTOM_UP:
+          if (maxAxis != Botup) 
+          {
+            mailboxes[behaviors[i].channel] = 0;
+            behaviors[i].orientation = maxAxis;
+          }
+          else// if (maxAxis == Botup)
+          {
+            if (behaviors[i].momentary == 0) // continuous output desired
+            {
+              mailboxes[behaviors[i].channel] = 1000;
+            }
+            else // momentary output desired
+            {
+              if (behaviors[i].orientation != Botup)
+              {
+                behaviors[i].orientation = Botup;
+                behaviors[i].xlTimer = systemTimer;
+                mailboxes[behaviors[i].channel] = 1000;
+              }
+              else 
+              {
+                if (systemTimer - behaviors[i].xlTimer > 100)
+                {
+                  mailboxes[behaviors[i].channel] = 0;
+                }
+                else // less than 100ms have elapsed since output was set
+                {
+                  mailboxes[behaviors[i].channel] = 1000;
+                }
+              }
+            }
+          }
+          break;          
         }
 
 
