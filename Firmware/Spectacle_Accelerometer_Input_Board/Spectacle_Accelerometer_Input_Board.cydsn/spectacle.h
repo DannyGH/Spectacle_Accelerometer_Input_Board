@@ -18,7 +18,7 @@ local, and you've found our code helpful, please buy us a round!
 #ifndef __spectacle_h__
 #define __spectacle_h__
 
-#define BOARD_ID        0x81 // unique identifier for this type of spectacle 
+#define BOARD_ID        129  // unique identifier for this type of spectacle 
                              // board. The MSb signifies whether this is an
                              // input type board (1) or output type (0)
 #define BOARD_ID_REG    0xff // I2C register holding the board ID.
